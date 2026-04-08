@@ -13,9 +13,9 @@ The original research introduces a framework to distill social bias and offensiv
 ### File Details
 | File Name | Description | Status |
 | :--- | :--- | :--- |
-| **SBIC.v2.trn.csv** | The main dataset containing all posts and multiple human annotations per post. | **Primary Raw Data** |
+| **SBIC.v2.trn.zip** | The main raw dataset (compressed). Contains all individual annotations. | **Primary Raw Data** |
 | **SBIC.v2.agg.trn.csv** | Training set with aggregated labels (averaged scores per post). | **Aggregated Data** |
-| **SBIC.v2.dev.csv** / **tst.csv** | Validation and Test splits with individual annotations. | Secondary Splits |
+| **Note:** | Dev and Test splits are omitted for repo but can be merged later. |  |
 ### Data Schema
 | Attribute | Description | Role |
 | :--- | :--- | :--- |
